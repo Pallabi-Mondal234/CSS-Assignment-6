@@ -1,0 +1,339 @@
+body .btn {
+  padding: 14px 28px;
+  text-decoration: none;
+  background-color: #f84f20;
+  color: white;
+  border-radius: 0px;
+}
+body .btn:hover {
+  background-color: white;
+}
+body .black-hover:hover {
+  background-color: #101012;
+  color: white;
+}
+body .italic {
+  padding: 20px 0;
+  font-size: 2rem;
+  color: #c7dae8;
+  font-style: italic;
+  font-weight: 500;
+}
+body .story-img {
+  background: url("../assests/Rectangle-12.png") no-repeat center;
+  background-size: cover;
+  min-height: 600px;
+}
+body .define-part {
+  padding: 50px 0;
+}
+body .define-part h2 {
+  font-size: 3rem;
+  padding-top: 30px;
+}
+body .define-part .italic {
+  color: black;
+  font-size: 1.3rem;
+}
+body .define-part p {
+  font-size: 1.7rem;
+  padding-bottom: 30px;
+  font-family: "Libre Caslon Text", Sans-serif;
+}
+body .define-part .btn {
+  padding: 16px 60px;
+}
+body .top-section {
+  background-color: #c7dae8;
+}
+body .top-section .top-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .top-section .top-info p {
+  padding: 6px 0;
+  color: #291929;
+  font-weight: 500;
+  position: relative;
+}
+body .top-section .top-info p span {
+  color: #f84f20;
+  font-weight: 700;
+}
+body .top-section .top-info p a {
+  margin-left: 40px;
+  margin-top: -25px;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+body .top-section .top-info p a:hover {
+  color: #f84f20;
+}
+body .top-section .top-info p ::after {
+  content: "";
+  position: absolute;
+  top: 34%;
+  right: 35%;
+  background-image: url("../assests/icons/telephone.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+}
+body .nav-main .nav-main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+body .nav-main .nav-main-content img {
+  height: auto;
+  width: 150px;
+  padding: 10px 0;
+}
+body .nav-main .nav-main-content .nav-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+body .nav-main .nav-main-content .nav-sec li {
+  list-style: none;
+  position: relative;
+}
+body .nav-main .nav-main-content .nav-sec li a {
+  text-decoration: none;
+  padding: 0 20px;
+  color: black;
+}
+body .nav-main .nav-main-content .nav-sec li a:hover {
+  color: #9ccaeb;
+}
+body .nav-main .nav-main-content .nav-sec li:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  top: 26%;
+  right: 2%;
+  background-image: url("../assests/icons/down-arrow.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 7px;
+  width: 8px;
+  filter: invert(1);
+}
+body .homepage {
+  background: url("../assests/Rectangle-13.png") no-repeat center;
+  min-height: 850px;
+  background-size: cover;
+}
+body .homepage .homepage-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(50%);
+}
+body .homepage .homepage-content h1 {
+  font-size: 4rem;
+  width: 42rem;
+  font-weight: 500;
+  color: white;
+}
+body .homepage .homepage-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: italic;
+  padding: 20px 0;
+  font-family: "Libre Caslon Text", Sans-serif;
+}
+body .homepage .homepage-content .btn:hover {
+  background-color: white;
+  color: black;
+}
+body .service .output-img {
+  background: url("../assests/Rectangle-1.png") no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+}
+body .service .service-facility {
+  padding: 121px;
+}
+body .service .service-facility h2 {
+  font-size: 4rem;
+}
+body .service .service-facility p {
+  font-size: 1.6rem;
+  padding-bottom: 30px;
+  font-family: "Libre Caslon Text", Sans-serif;
+}
+body .service .service-facility .btn {
+  padding: 20px 50px;
+}
+body .service .service-facility .btn:hover {
+  background-color: black;
+  color: white;
+}
+body .service .service-output {
+  background: url("../assests/Rectangasdle-12.png") no-repeat center;
+  background-size: cover;
+  height: 500px;
+}
+body .query {
+  background-color: #c7dae8;
+}
+body .query .faq-container {
+  padding: 132px 0px;
+  padding-left: 55px;
+}
+body .query .faq-container .faq-item {
+  padding: 20px 0px;
+  border-bottom: 1px solid #101012;
+}
+body .query .faq-container .faq-item .faq-title {
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+body .query .faq-container .faq-item .faq-content {
+  display: none;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+}
+body .query .faq-container .faq-item .faq-item.active .faq-content {
+  display: block;
+}
+body .review .review-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+body .review .review-content h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 20px 0;
+}
+body .review .review-content p {
+  color: #9ccaeb;
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+  padding: 15px 50px;
+  width: 66rem;
+  font-weight: 500;
+  font-family: "Libre Caslon Text", Sans-serif;
+}
+body .review .review-content ul {
+  display: flex;
+}
+body .review .review-content ul li {
+  padding: 30px 18px;
+  list-style: none;
+  position: relative;
+}
+body .review .review-content ul li::before {
+  content: "";
+  position: absolute;
+  top: 26%;
+  right: 2%;
+  background-image: url("../assests/icons/star.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+}
+body .story .define-part {
+  background-color: #c7dae8;
+  padding: 50px 134px;
+}
+body .appointment .define-part {
+  background-color: #ffeee4;
+  padding: 100px;
+}
+body .appointment .story-img {
+  background: url("../assests/Rectangasdle-12.png") no-repeat center;
+  background-size: cover;
+}
+body footer {
+  background-color: #9BB8D3;
+}
+body footer .footer-main {
+  padding: 50px 0;
+}
+body footer .footer-main .footer-col {
+  width: 25%;
+  margin-top: 20px;
+}
+body footer .footer-main .footer-col .office {
+  margin-right: 59px;
+}
+body footer .footer-main .footer-col .contact .num {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+body footer .footer-main .footer-col h4 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+body footer .footer-main .footer-col ul {
+  padding-left: 0;
+}
+body footer .footer-main .footer-col ul li {
+  list-style: none;
+  padding: 8px 0;
+}
+body footer .footer-main .footer-col ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+body footer .footer-main .footer-col ul li a:hover {
+  color: white;
+}
+body footer .footer-main .footer-col form input {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 25px 0;
+  margin-bottom: 20px;
+  width: 100%;
+}
+body footer .footer-main .footer-col form input::Placeholder {
+  padding-left: 10px;
+  font-size: 1.3rem;
+  color: white;
+}
+body footer .footer-main .footer-col form .btn {
+  padding: 25px 165px;
+  width: 100%;
+}
+body footer .footer-main .footer-col p {
+  margin-top: 40px;
+}
+body footer .footer-main .footer-col p a {
+  color: black;
+}
+body footer .footer-main .footer-col p a:hover {
+  color: white;
+}
+body footer .footer-main .footer-col:nth-last-child(1) {
+  width: 40%;
+}
+body footer .footer-bottom {
+  padding: 60px 0;
+}
+body footer .footer-bottom a {
+  text-decoration: none;
+  color: black;
+}
+body footer .footer-bottom a:hover {
+  color: white;
+}/*# sourceMappingURL=index.css.map */
